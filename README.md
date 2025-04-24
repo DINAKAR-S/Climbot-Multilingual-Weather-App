@@ -51,9 +51,6 @@ Create a `.env` file:
 WEATHER_API_KEY=your_weatherapi_key_here
 OPENROUTER_API_KEY=your_openrouter_api_key_here
 ```
-
-✅ Or use **Streamlit secrets** / Render `render.yaml` instead for production.
-
 ---
 
 ## 🟢 Run Locally
@@ -61,22 +58,6 @@ OPENROUTER_API_KEY=your_openrouter_api_key_here
 ```bash
 streamlit run app.py
 ```
-
----
-
-## 🌐 Deployment Options
-
-### ✅ [Streamlit Cloud](https://streamlit.io/cloud)
-
-- Push to GitHub
-- Add secrets in Streamlit settings
-- Set main file as `app.py`
-
-### ✅ [Render.com](https://render.com)
-
-- Use `render.yaml` (included)
-- Add secrets in dashboard
-- Auto-deploy from GitHub
 
 ---
 
@@ -88,19 +69,6 @@ streamlit run app.py
 | Tamil    | சென்னையில் இன்று மழை பெய்யுமா?             |
 | Hindi    | क्या आज दिल्ली में बारिश होगी?            |
 | Telugu   | హైదరాబాద్‌లో వాతావరణం ఎలా ఉంది?          |
-
----
-
-## 📦 Project Structure
-
-```
-climbot-weather-chatbot/
-├── app.py                 # Main app file
-├── requirements.txt       # Dependencies
-├── .env                   # Local API keys (not committed)
-├── render.yaml            # Render deploy config (optional)
-└── README.md              # You're reading this
-```
 
 ---
 
