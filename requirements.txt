@@ -1,0 +1,10 @@
+streamlit
+requests
+gtts
+pygame
+sounddevice
+wavio
+speechrecognition
+python-dotenv
+deep-translator
+openai==0.28.1
